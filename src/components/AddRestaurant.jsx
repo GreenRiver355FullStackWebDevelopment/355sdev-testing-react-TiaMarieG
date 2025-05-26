@@ -24,6 +24,7 @@ function AddRestaurant({ updateRestaurants }) {
       <div>
         <label>Name:</label>
         <input
+          // Adding data-cy attribute for Cypress testing
           data-cy="input-name"
           type="text"
           name="name"
@@ -36,6 +37,7 @@ function AddRestaurant({ updateRestaurants }) {
       <div>
         <label>Address:</label>
         <input
+          // Adding data-cy attribute for Cypress testing
           data-cy="input-address"
           type="text"
           name="address"
@@ -48,6 +50,7 @@ function AddRestaurant({ updateRestaurants }) {
       <div>
         <label>Phone:</label>
         <input
+          // Adding data-cy attribute for Cypress testing
           data-cy="input-phone"
           type="tel"
           name="phone"
@@ -60,6 +63,7 @@ function AddRestaurant({ updateRestaurants }) {
       <div>
         <label>Cuisine:</label>
         <input
+          // Adding data-cy attribute for Cypress testing
           data-cy="input-cuisine"
           type="text"
           name="cuisine"
@@ -72,6 +76,7 @@ function AddRestaurant({ updateRestaurants }) {
       <div>
         <label>Rating:</label>
         <input
+          // Adding data-cy attribute for Cypress testing
           data-cy="input-rating"
           type="number"
           name="rating"
