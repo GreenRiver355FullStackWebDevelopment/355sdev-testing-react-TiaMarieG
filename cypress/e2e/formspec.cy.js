@@ -20,9 +20,9 @@ describe("Tests that a restaurant can be added", () => {
 
       // Submit the form
       cy.get('[data-cy="form-submit"]').submit();
-      cy.get('[data-cy="restaurant-btn"]').click();
+ 
       // Check that the new restaurant appears
-      cy.get(`[data-cy="Breakfast Room"] h2`).within(() => {
+      cy.get(`[data-cy="Breakfast Room"] ul`).within(() => {
          cy.contains("li", "12345 Breakfast St, Breakfast, WA").should(
             "be.visible"
          );
