@@ -6,5 +6,7 @@ describe('Submits a rating', () => {
 
     // Updating cy.visit to point to the correct URL
     cy.visit('http://localhost:5173/');
-  }); 
+  });
+  // Adding an it block and passing it a callback function as the second argument
+  it('Creates a booking', () => {})
 })
